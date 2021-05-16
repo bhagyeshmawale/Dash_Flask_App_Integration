@@ -1,0 +1,26 @@
+{
+	"params":
+
+	{
+		"local_server":"True",
+		"local_uri": "mysql://root:@localhost/bhagyesh",
+		"prod_uri": "mysql://root:@localhost/bhagyesh",
+		"twi_url": "https://mobile.twitter.com/moonfightersbsc?s=21",
+		"fb_url": "https://www.facebook.com/PranitMawale",
+		"gh_url": "https://www.facebook.com/PranitMawale",
+		"blog_name" : "MOON FIGHTERS",
+		"gmail-user":"bhagyeshmawale21@gmail.com",
+		"gmail-password":"21believe21",
+		"no of post":5,
+		"medium_url":"https://moonfightersbsc.medium.com/we-would-like-to-announce-the-launch-of-moonfighters-mf-dd7c053f8e7e",
+		"telegram":"https://t.me/MoonFightersBSC",
+		"contract_url":"https://bscscan.com/token/0xed6b5b5d037ef636b3cbe21360faaea8ac8f6f58#balances",
+		"chart":"https://poocoin.app/tokens/0xed6b5b5d037ef636b3cbe21360faaea8ac8f6f58",
+		"moonfight":"https://www.moonfighters.co/",
+		"buynow":"https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xed6b5b5d037ef636b3cbe21360faaea8ac8f6f58",
+		"reddit":"https://www.reddit.com/user/MoonFightersOfficial"
+
+
+
+	}
+}
