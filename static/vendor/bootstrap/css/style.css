@@ -1,17 +1,16 @@
 html {
-    height: 100%;
+  
+	width:60%
     overflow: hidden;
-    background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
-	overflow-y: scroll;
-	opacity: "1";
-
+    background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 60%);
+	position:relative;
 }
 
 #title {
-    position: absolute;
+    position:relative;
     top: 50%;
     left: 0;
-    right: 0;
+    right: -20;
     color: #fff;
     text-align: center;
     font-family: Lato;
@@ -31,6 +30,7 @@ html {
 #stars {
     width: 1px;
     height: 1px;
+	position:relative;
     background: transparent;
     animation: animStar 50s linear infinite;
     box-shadow: 779px 1331px #fff, 324px 42px #fff, 303px 586px #fff,
@@ -214,7 +214,7 @@ html {
 
 #stars:after {
     content: '';
-    position: absolute;
+    position:relative;
     top: 2000px;
     width: 1px;
     height: 1px;
@@ -458,11 +458,12 @@ html {
 
 #stars2:after {
     content: '';
-    position: absolute;
+    position:relative;
     top: 2000px;
     width: 2px;
     height: 2px;
     background: transparent;
+	position:relative;
     box-shadow: 1448px 320px #fff, 1775px 1663px #fff, 332px 1364px #fff,
     878px 340px #fff, 569px 1832px #fff, 1422px 1684px #fff, 1946px 1907px #fff,
     121px 979px #fff, 1044px 1069px #fff, 463px 381px #fff, 423px 112px #fff,
@@ -517,8 +518,9 @@ html {
 }
 
 #stars3 {
-    width: 2px;
-    height: 2px;
+    width: 3px;
+    height: 3px;
+	position:relative;
     background: transparent;
     animation: animStar 150s linear infinte;
     box-shadow: 387px 1878px #fff, 760px 1564px #fff, 1487px 999px #fff,
@@ -551,7 +553,7 @@ html {
 
 #stars3:after {
     content: '';
-    position: absolute;
+    position:relative;
     top: 2000px;
     width: 3px;
     height: 3px;
@@ -585,17 +587,13 @@ html {
 }
 
 
-@keyframes animShootingStar {
-  from {
-    transform: translateY(0px) translateX(0px) rotate(-45deg);
-    
-    height: 5px;
-  }
-  to {
-    transform: translateY(-2560px) translateX(-2560px) rotate(-45deg);
-    
-    height: 800px;
-  }
+@keyframes animStar {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-2000px);
+    }
 }
 
 
